@@ -1,0 +1,6 @@
+SETUP :
+
+TEST :
+# EXECUTE_SELENIUM2 selenium WITH MAIN CLASS AllFirefoxTest
+
+TEARDOWN :
