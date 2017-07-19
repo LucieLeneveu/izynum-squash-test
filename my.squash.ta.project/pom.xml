@@ -13,7 +13,7 @@
 		to avoid an exception that breaks the build when executing it standalone 
 		NB: while /dev/null only exists in *nixes, this value creates no problem in windows. -->
 		<status.update.events.url>file://dev/null</status.update.events.url>
-		<ta.test.suite>ConnexionTest.ta,AllFirefoxTest.ta,AllExplorerTest.ta</ta.test.suite> 
+		<ta.test.suite>ConnexionTest.ta</ta.test.suite> 
 	</properties>
 	
 	<build>
