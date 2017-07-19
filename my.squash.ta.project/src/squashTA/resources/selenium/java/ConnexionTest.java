@@ -13,7 +13,7 @@ import java.io.File;
 import org.openqa.selenium.support.ui.Select;
 
 public class ConnexionTest {
-  private FirefoxBinary binary = new FirefoxBinary(new File("C:\\dev\\Selenium\\Firefox\\firefox.exe"));
+  private FirefoxBinary binary = new FirefoxBinary(new File("src\\squashTA\\resources\\navigateur\\firefox\\firefox.exe"));
   private FirefoxProfile profile = new FirefoxProfile();
   private WebDriver driver;
   private String baseUrl;
