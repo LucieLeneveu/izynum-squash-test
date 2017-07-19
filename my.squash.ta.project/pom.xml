@@ -84,7 +84,7 @@
 		<repository>
 			<id>org.squashtest.ta.release</id>
 			<name>squashtest test automation - releases</name>
-			<url>${user.home}/.m2/repository</url>
+			<url>http://repo.squashtest.org/maven2/releases</url>
 		</repository>
 	</repositories>
 
@@ -93,7 +93,7 @@
 		<pluginRepository>
 			<id>org.squashtest.plugins.release</id>
 			<name>squashtest.org</name>
-			<url>${user.home}/.m2/repository</url>
+			<url>http://repo.squashtest.org/maven2/releases</url>
 			<snapshots>
 				<enabled>false</enabled>
 			</snapshots>
