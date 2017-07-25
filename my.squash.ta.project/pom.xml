@@ -16,6 +16,14 @@
 		<ta.test.suite>ConnexionTest.ta</ta.test.suite> 
 	</properties>
 	
+	<dependencies>
+		<dependency>
+			<groupId>org.squashtest.ta</groupId>
+			<artifactId>squash-ta-maven-plugin</artifactId>
+			<version>1.9.0-RELEASE</version>
+		</dependency>
+	</dependencies>
+	
 	<build>
 		<plugins>
             <!-- Configuration of the Squash TA framework used by the project -->
