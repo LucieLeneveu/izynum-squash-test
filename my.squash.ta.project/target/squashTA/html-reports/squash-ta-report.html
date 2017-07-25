@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Execution report - my.squash.ta.project:0.0.1-SNAPSHOT</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="public/stylesheets/knacss.css" media="all" />
+<link rel="icon" type="image/png" href="public/images/logo_squash_favicone.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="public/images/logo_squash_favicone.ico" />
+<script type="text/javascript" src="public/javascripts/dropdown.js" ></script>
+</head>
+<body class="ml2 mr2 mt1">
+    <div id="header" class="row">
+        <div class="col w20">
+            <img class="left" src="public/images/logo_squash.png" alt="Logo Squash" />
+        </div>
+        <div class="col-mid txtcenter"><h1>Automated Test Execution Report</h1></div>
+    </div>
+    
+    <div id="content">
+        <div id="summary">
+            <div class="info">
+                <span>GroupId:&nbsp;</span>org.squashtest.tutorial<br/> 
+                <span>ArtifactId:&nbsp;</span>my.squash.ta.project<br/> 
+                <span>Version:&nbsp;</span>0.0.1-SNAPSHOT<br/> 
+                <br/> 
+                <span>Execution date:&nbsp;</span>07/25/2017 14:33:20
+                <br/>
+            </div>
+
+            <!-- GLOBAL SUMMARY -->
+            <table class="w100 striped">
+                <thead>
+                    <tr class="table-header">
+                        <th colspan=2>Test Set</th>
+                        <th class="w10">Tests</th>
+                        <th class="w10"><img src="public/images/Circle_Green.png" />&nbsp;Successes</th>
+                        <th class="w10"><img src="public/images/Circle_Yellow.png" />&nbsp;Failures</th>
+                        <th class="w10"><img src="public/images/Circle_Red.png" />&nbsp;Errors</th>
+                        <th class="w10"><img src="public/images/Circle_Grey.png" />&nbsp;Not run</th>
+                        <th class="w10"><img src="public/images/Circle_Grey.png" />&nbsp;Not found</th>
+                        <th class="w10">Success Rate</th>
+                        <th class="w10">Time (s)</th>
+                    </tr>
+                </thead>
+                    <tbody>
+    <tr>
+        <td class="center status">
+            <div style="width:15px"><a href="#tests">        <img src="public/images/Circle_Green.png" />
+</a></div>
+        </td>
+        <td><a href="#tests">tests</a></td>
+        <td>1</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>100%</td>
+        <td>19,775</td>
+    </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="b">
+                            <td colspan=2>Total:</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>                        
+                            <td>100%</td>
+                            <td>19,775</td>
+                        </tr>
+                    </tfoot>
+            </table>
+            <div class="note">
+                Note:
+                <ul>
+                    <li>"Failures" are anticipated and checked for with assertions whereas "errors" are unanticipated.</li>
+                    <li>"Not run" means that the test case was not run, because an error / failure occurred during the ecosystem setup phase.</li>
+                    <li>The ecosystem might end up with an "error" or "failure" status, even if all its test cases were successful. It means an error / failure occurred during the ecosystem teardown phase.</li>
+                </ul> 
+            </div>
+        </div>
+        
+                <div class="ecosystem">
+    <div class="ecosystem-header">
+        <h2>
+            <a id="tests"></a>        <img src="public/images/Circle_Green.png" />
+tests
+        </h2>
+    </div>
+    <div class="ecosystem-body">
+        <div class="ecosystem-summary">
+            <table class="w100 striped">
+                <thead>
+                    <tr class="table-header">
+                        <th colspan="2">Script</th>
+                        <th class="w10">Status</th>
+                        <th class="w10">Time (s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+    <tr>
+        <td class="center status"><a href="#tests_ConnexionTest.ta">         <img src="public/images/Circle_Green.png" />
+ </a></td>
+        <td>
+                <a href="#tests_ConnexionTest.ta">ConnexionTest.ta</a>
+        </td>
+        <td>        Success
+</td>
+        <td>
+                19,749
+        </td>
+    </tr>
+                </tbody>
+            </table>
+            <div class="script-link">
+                <a href="#header">[Back to top]</a>
+            </div>
+        </div>    <div class="script">
+        <div class="script-header">
+            <h3>
+                        <img src="public/images/Circle_Green.png" />
+<a id="tests_ConnexionTest.ta"></a> ConnexionTest.ta
+            </h3>
+        </div>
+        <div class="script-content">
+    
+            <div class="note">
+                <span>Status:&nbsp;</span>        Success
+<br/>
+                <span>Time (s):&nbsp;</span>19,749
+            </div>
+    
+            <table class="w100 striped">
+                <thead>
+                    <tr class="table-header">
+                        <th colspan="2" class="big">Test steps</th>
+                        <th class="w50p txtcenter">Line</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                        <tr>
+                            <td colspan="3"><strong>TEST :</strong></td>
+                        </tr>
+    <tr class="a">
+        <td class="center status">
+        <img src="public/images/Circle_Green.png" />
+        </td>
+        <td>
+            <div class="col"># EXECUTE_SELENIUM2 selenium WITH MAIN CLASS ConnexionTest</div>
+        </td>
+        <td class="txtcenter instruction-line">
+            4
+        </td>
+    </tr>
+                    
+                </tbody>
+            </table>
+            <br/>
+        </div>
+    </div>
+    <div class="script-link">
+        <a href="#header">[Back to top]</a>&nbsp;<a href="#tests">[Back to tests]</a>
+    </div>
+    
+    </div>
+                </div>
+        
+    </div>
+    <div class="footer txtcenter">
+        <p>Generated by Squash TA&copy; on 07/25/2017 14:33</p>
+    </div>
+</body>
+</html>
